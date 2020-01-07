@@ -1,0 +1,29 @@
+
+# Intelij
+.idea
+*.iml
+.idea_modules/
+*.ipr
+*.log
+*.iws
+out/
+modules.xml
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+### Java ###
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Mac
+.DS_Store
