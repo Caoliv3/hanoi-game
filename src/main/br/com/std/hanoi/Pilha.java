@@ -40,8 +40,13 @@ public class Pilha{
             return -1;
     }
 
+    public int[] getPilha() {
+        return pilha;
+    }
 
-
+    public boolean isVazia (){
+        return posTopo == -1;
+    }
 }
 
 
