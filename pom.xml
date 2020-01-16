@@ -9,7 +9,7 @@
 		<encoding>UTF-8</encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<junit.version>4.12</junit.version>
-		<maven.version>3.6.3</maven.version>
+		<maven.version>3.5.1</maven.version>
 	</properties>
 	<dependencies>
 		<dependency>
