@@ -22,10 +22,14 @@ public class Pilha{
 
     public int desempilha(){
 
-        int aux = this.pilha[posTopo];
-        this.pilha[posTopo] = 0;
-        this.posTopo--;
-        return aux;
+        if(posTopo != -1) {
+            int aux = this.pilha[posTopo];
+            this.pilha[posTopo] = 0;
+            this.posTopo--;
+            return aux;
+        }else {
+            return posTopo;
+        }
     }
 
     /**

@@ -21,16 +21,16 @@
 	</dependencies>
 	<build>
 		<sourceDirectory>src/main/</sourceDirectory>
-        	<testSourceDirectory>src/test/</testSourceDirectory> 
+        <testSourceDirectory>src/test/</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>${maven.version}</version>
 				<configuration>
-				<source>1.8</source>
-				<target>1.8</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
-            		</plugin>
+			</plugin>
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>

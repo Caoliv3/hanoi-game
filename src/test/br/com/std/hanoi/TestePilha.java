@@ -28,5 +28,33 @@ public class TestePilha {
 
     }
 
+    @Test
+    public void testGetTopo(){
 
+        Pilha pilha1 = new Pilha(3);
+        pilha1.empilhar(3);
+        pilha1.empilhar(2);
+        pilha1.empilhar(1);
+
+        assertEquals(1,pilha1.getTopo());
+
+        pilha1.desempilha();
+        pilha1.desempilha();
+        pilha1.desempilha();
+        pilha1.desempilha();
+        assertEquals(-1,pilha1.getTopo());
+
+
+    }
+
+
+    @Test
+    public void testDesempilhaVazio(){
+
+        Pilha pilha1 = new Pilha(3);
+
+        assertEquals(-1,pilha1.desempilha());
+
+
+    }
 }
